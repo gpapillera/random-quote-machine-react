@@ -169,7 +169,7 @@ function App() {
           <div class="nav-item" >
           <a
             id="tweet-quote"
-            href={`https://twitter.com/intent/tweet?text=${currentQuote?.quote} ${currentQuote?.author}`}
+            href={`https://twitter.com/intent/tweet?text=${currentQuote?.quote} - ${currentQuote?.author}`}
             target="_blank"
             rel="noopener noreferrer"
           >
