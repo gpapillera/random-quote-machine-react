@@ -149,7 +149,10 @@ function App() {
 
 
   return (
+  <div id="bodyguard">
+    <h1 className='appTitle'>Random Quote Machine</h1>
     <div id="quote-box">
+      
       <div class="container">
         <div class="quote-text">
           <span><i class="fa-solid fa-quote-left"></i></span>
@@ -160,38 +163,42 @@ function App() {
         </div>
 
         <div id="author"><span>- </span>{currentQuote?.author}</div>
-        
-        <button id="new-quote" onClick={handleNewQuote}>
-        <i class="fa-solid fa-rotate"></i>
-        </button>
 
         <div class="nav">
           <div class="nav-item" >
-          <a
-            id="tweet-quote"
-            href={`https://twitter.com/intent/tweet?text=${currentQuote?.quote} - ${currentQuote?.author}`}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-          <i class="fa-brands fa-twitter"></i>
-          </a>
-          <a
-            id="fb-quote"
-            href={`https://www.instagram.com/?text=${currentQuote?.quote} - ${currentQuote?.author}`}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-          <i class="fa-brands fa-instagram"></i>
-          </a>
+            <a
+              id="tweet-quote"
+              href={`https://twitter.com/intent/tweet?text=${currentQuote?.quote} - ${currentQuote?.author}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+            <i class="fa-brands fa-twitter"></i>
+            </a>
+            
+            <a
+              id="fb-quote"
+              href={`https://www.instagram.com/?text=${currentQuote?.quote} - ${currentQuote?.author}`}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+            <i class="fa-brands fa-instagram"></i>
+            </a>
 
-          <div id="previous-quote" onClick={handlePreviousQuote}>
-            <i class="fa-solid fa-arrow-rotate-left"></i>
+            <div id="previous-quote" onClick={handlePreviousQuote}>
+              <i class="fa-solid fa-arrow-rotate-left"></i>
+            </div>
           </div>
 
+          <div class="nav-item" >
+            <button id="new-quote" onClick={handleNewQuote}>
+              <i class="fa-solid fa-rotate"></i>
+            </button>
           </div>
         </div>
       </div>
     </div>
+    <p className="footer">created by <i class="fa-brands fa-github fa-fade"></i> <a rel="noreferrer" target="_blank" href="https://github.com/gpapillera">gpapillera</a> | <i class="fa-brands fa-free-code-camp"></i> <a rel="noreferrer" target="_blank" href="https://www.freecodecamp.org/learn/front-end-development-libraries/#front-end-development-libraries-projects"> freeCodeCamp</a></p>
+  </div>
   );
 }
 
