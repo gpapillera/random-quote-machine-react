@@ -38,8 +38,8 @@ body{
 
 .appTitle {
   font-family: var(--Poppins-font);
-  font-size: clamp(1em, 30vw, 2.5em);
-  margin-top: 5%;
+  font-size: clamp(1rem, 7vw, 2.8rem);
+  margin-top: clamp(1.3em, 7vw, 1.4em);
   text-align: center;
   margin-bottom: .01%;
   color: var(--new-quote-color);
@@ -48,7 +48,7 @@ body{
 #quote-box {
   text-align: center;
   margin: 0 auto;
-  width: max(550px, 70%);
+  width: max(400px, 70%);
   height: min(780px, 90%);
   padding: 0 1.4em;
   display: flex;
@@ -89,21 +89,21 @@ body{
   /* color: var(--quote-color); */
   padding: .5em;
   font-family: var(--Montserrat-font);
-  font-size: 1.5rem;
+  font-size: clamp(1.2rem, 2.5vw, 1.5rem);
   line-height: 1.4em;
-  font-weight: 400;
   text-align: center;
-  transition: all 1.5s ease-in-out;
+  transition: all .5s ease-in-out;
 }
 
 #author {
-  font-size: 1.3rem;
+  font-size: clamp(1.2rem, 2.5vw, 1.5rem);
   font-weight: 400;
   color: var(--author-color);
   font-family: var(--Poppins-font);
   padding-bottom: .8em;
   padding-right: 1.2em;
   text-align: right;
+  transition: all .5s ease-in-out;
 }
 
 .fa-quote-left {
@@ -149,7 +149,7 @@ body{
   margin: 0 auto;
   border: none;
   background: none;
-  transition: all .3s ease-in-out;
+  transition: all .3s ease-in;
 }
 
 #new-quote:hover {
