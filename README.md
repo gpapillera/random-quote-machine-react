@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/gpapillera/random-quote-machine-react/tree/main">
+    <a href="https://github.com/gpapillera/random-quote-machine-react">
       Solution
     </a>
     <span> | </span>
