@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/gpapillera/random-quote-machine-react/tree/main">
+    <a href="https://github.com/gpapillera/random-quote-machine-react">
       Solution
     </a>
     <span> | </span>
@@ -39,9 +39,11 @@
 
 ![screenshot](/Untitled.gif)
 
-> The project I worked on for [freeCodeCamp](https://www.freecodecamp.org/learn/front-end-development-libraries/front-end-development-libraries-projects/build-a-random-quote-machine) is stored in this repository. I used [github-pages](https://github.com/gitname/react-gh-pages) to host my demo. I can then learn some of the fundamentals of React.dev by doing this. React is a powerful and adaptable JavaScript toolkit for creating user interfaces. It simplifies complicated UIs into discrete units of code known as "components." React is limited to what you see on a website's home page by the use of these components.
+> The project I worked on for [freeCodeCamp](https://www.freecodecamp.org/learn/front-end-development-libraries/front-end-development-libraries-projects/build-a-random-quote-machine) is stored in this repository. I used [github-pages](https://github.com/gitname/react-gh-pages) to host my demo. 
 
-> With this project, I started with the desktop. To ensure that all of my pages are responsive and in a format that would operate on both desktop and mobile devices, I used the `clamp()`, `min()`, and `max()` properties to address its responsiveness.
+By working with this project I became familiar with the `useState` hook which is used to declare a state variable called `quote` and its setter function called `setQuote`. The `useEffect` hook is used to set the state variable `quote` with a randomly selected quote from the `quotes` array and its corresponding author every time the component mounts or whenever the `colors` array changes.
+
+With this project, I started with the desktop. To ensure that all of my pages are responsive and in a format that would operate on both desktop and mobile devices, I used the `clamp()`, `min()`, and `max()` properties to address its responsiveness.
 
 ### Built With
 
