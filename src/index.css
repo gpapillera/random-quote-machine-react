@@ -38,8 +38,8 @@ body{
 
 .appTitle {
   font-family: var(--Poppins-font);
-  font-size: clamp(1rem, 7vw, 2.8rem);
-  margin-top: clamp(1.3em, 7vw, 1.4em);
+  font-size: clamp(1rem, 7vw, 2.9rem);
+  margin-top: clamp(1.8em, 7vw, 1.4em);
   text-align: center;
   margin-bottom: .01%;
   color: var(--new-quote-color);
@@ -50,7 +50,7 @@ body{
   margin: 0 auto;
   width: max(400px, 70%);
   height: min(780px, 90%);
-  padding: 0 1.4em;
+  padding: auto 1.2em;
   display: flex;
   justify-content: center;
   align-items: center;
